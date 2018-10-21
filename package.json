@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/uncle-T0ny/log4js-node-sentry-appender/issues"
   },
-  "homepage": "https://github.com/uncle-T0ny/log4js-node-sentry-appender#readme"
+  "homepage": "https://github.com/uncle-T0ny/log4js-node-sentry-appender#readme",
+  "dependencies": {
+    "@sentry/node": "^4.1.1"
+  }
 }

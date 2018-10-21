@@ -1,5 +1,7 @@
 ## Sentry log4js appender
 
+This package requires @sentry/node
+
 An example of the config:
 ```javascript
 const log4js = require('log4js');
