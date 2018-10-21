@@ -1,0 +1,24 @@
+{
+  "name": "log4js-node-sentry-appender",
+  "version": "1.0.0",
+  "description": "This is simple log4js appender for integration with sentry.io ",
+  "main": "lib/sentryAppender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncle-T0ny/log4js-node-sentry-appender.git"
+  },
+  "keywords": [
+    "log4js",
+    "sentry",
+    "appender"
+  ],
+  "author": "Anton Romankov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uncle-T0ny/log4js-node-sentry-appender/issues"
+  },
+  "homepage": "https://github.com/uncle-T0ny/log4js-node-sentry-appender#readme"
+}
