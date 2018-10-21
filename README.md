@@ -7,10 +7,10 @@ const log4js = require('log4js');
 log4js.configure({
   appenders: {
     console: { type: 'console' },
-    simpleAppender: {  type: 'simpleAppender', dns: 'https://{KEYS}@{HOST}/{PROJECT_ID}' }
+    'log4js-node-sentry-appender': {  type: 'log4js-node-sentry-appender', dns: 'https://{KEYS}@{HOST}/{PROJECT_ID}' }
   },
   categories: {
-    default: { appenders: ['simpleAppender'], level: 'error' }
+    default: { appenders: ['console', 'log4js-node-sentry-appender'], level: 'error' }
   }
 });
 ```
