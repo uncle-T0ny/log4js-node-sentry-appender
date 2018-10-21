@@ -1,6 +1,6 @@
 {
   "name": "log4js-node-sentry-appender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is simple log4js appender for integration with sentry.io ",
   "main": "lib/sentryAppender.js",
   "scripts": {
